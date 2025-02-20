@@ -37,7 +37,7 @@ sudo apt-get update && sudo apt-get install -y nmap
 ```bash
 nmap -sn 192.168.1.0/24
 ```
-![Scan Result](Aggressive Scan (Includes OS, Services, and Traceroute).png)
+![Scan Result]([Aggressive Scan (Includes OS, Services, and Traceroute).png](https://github.com/ramyad06/Scanning-and-Enumerating-a-Local-Network-with-Nmap-on-Kali-Linux/blob/main/Aggressive%20Scan%20(Includes%20OS,%20Services,%20and%20Traceroute).png?raw=true))
 
 Use: Performs a "ping scan" to identify live hosts without scanning their ports.
 
