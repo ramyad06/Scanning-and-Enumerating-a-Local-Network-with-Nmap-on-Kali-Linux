@@ -37,6 +37,8 @@ sudo apt-get update && sudo apt-get install -y nmap
 ```bash
 nmap -sn 192.168.1.0/24
 ```
+![Scan Result](Aggressive Scan (Includes OS, Services, and Traceroute).png)
+
 Use: Performs a "ping scan" to identify live hosts without scanning their ports.
 
 **Scan for Open Ports on a Single Host**  
