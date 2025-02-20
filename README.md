@@ -3,6 +3,17 @@ This project demonstrates how to use Nmap on Kali Linux to scan and enumerate de
 
 ## 🔧 Commands Used
 
-1️⃣ **Scan for active hosts**  
+**Scan for active hosts**  
 ```bash
 nmap -sn 192.168.1.0/24
+Use: Performs a "ping scan" to identify live hosts without scanning their ports.
+
+**Scan for Open Ports on a Single Host**  
+```bash
+nmap -p- 192.168.1.1
+Use: Scans all 65,535 ports on the target device to find open ones.
+
+
+
+
+
